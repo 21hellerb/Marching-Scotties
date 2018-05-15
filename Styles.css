@@ -9,14 +9,14 @@ a.link:link, a.link:visited {
 	width: 80px;
 }
 a.link:hover, a.link:active {
-    background-color: #F4D813;
+    background-color: #000000;
 } 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 	overflow: hidden;
-    background-color: #7FFFD4;
+    background-color: #F4D813;
 }
 ul li {
     display: inline;
