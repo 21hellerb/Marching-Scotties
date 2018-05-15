@@ -1,4 +1,4 @@
-
+h2
 a.link:link, a.link:visited {
    	background-color:#000000;
    	color:#FFFFFF;
@@ -44,4 +44,16 @@ h1 {
 	margin-left:75px;
 	margin-right:75px;
 	padding-top:10px;
+}
+h2.top {
+	color:#000000;
+	border-bottom-style:solid;
+	border-color:#FFCC00;
+	text-align:center;
+}
+div.bottom {
+	background-color:#000000;
+	color:#FFFFFF;
+	margin-left:75px;
+	margin-right:75px;
 }
