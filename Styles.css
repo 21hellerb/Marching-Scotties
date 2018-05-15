@@ -11,3 +11,26 @@ a.link:link, a.link:visited {
 a.link:hover, a.link:active {
     background-color: #F4D813;
 } 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+    background-color: #7FFFD4;
+}
+ul li {
+    display: inline;
+	float: left;
+}
+ul li a {
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+} 
+ul li a{
+	border-top-left-radius: 1em 1em;
+	border-top-right-radius: 1em 1em;
+	border-bottom-left-radius: 1em 1em;
+	border-bottom-right-radius: 1em 1em;
+	
+}
