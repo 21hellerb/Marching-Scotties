@@ -37,17 +37,11 @@ ul li a {
 }
 h1 {
 	text-align:center;
-	font-size:4em;
 	color:#FFFFFF;
 	background-color:#000000;
-	background-image:url("B.png");
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size:2em;
 	border-style:solid;
 	border-color:#FFCC00;
 	margin-left:75px;
 	margin-right:75px;
 	padding-top:1em;
-	height:3.2em;
 }
