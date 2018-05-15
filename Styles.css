@@ -39,7 +39,7 @@ h1 {
 	text-align:center;
 	color:#FFFFFF;
 	background-color:#000000;
-	background-image:"B.png";
+	background-image:url("B.png");
 	border-style:solid;
 	border-color:#F4D813;
 	margin-left:75px;
