@@ -9,7 +9,7 @@ a.link:link, a.link:visited {
 	width: 80px;
 }
 a.link:hover, a.link:active {
-    background-color:#F4D813;
+    background-color:#FFCC00;
 } 
 ul {
     list-style-type: none;
@@ -41,7 +41,7 @@ h1 {
 	background-color:#000000;
 	background-image:url("B.png");
 	border-style:solid;
-	border-color:#F4D813;
+	border-color:#FFCC00;
 	margin-left:75px;
 	margin-right:75px;
 	padding:10px;
