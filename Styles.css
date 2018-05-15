@@ -40,6 +40,7 @@ h1 {
 	background-color:#000000;
 	border-style:solid;
 	border-color:#F4D813;
-	width:5em;
+	margin-left:125px;
+	margin-right:125px;
 	padding:10px;
 }
