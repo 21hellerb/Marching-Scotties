@@ -17,6 +17,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:#000000;
+    border-radius:25px;
     color:#FFFFFF;
 }
 ul li {
