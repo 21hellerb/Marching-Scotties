@@ -35,5 +35,12 @@ ul li a {
 	
 }
 h1 {
-	text-allign:center;
+	text-align:center;
+	color:#FFFFFF;
+	background-color:#000000;
+	border-style:solid;
+	border-color:#F4D813;
+	margin-left: 75px;
+	margin-right:75px;
+	padding:10px;
 }
