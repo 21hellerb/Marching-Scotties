@@ -27,10 +27,13 @@ ul li a {
 	padding: 14px 16px;
 	text-align: center;
 } 
-ul li a{
+ul li a {
 	border-top-left-radius: 1em 1em;
 	border-top-right-radius: 1em 1em;
 	border-bottom-left-radius: 1em 1em;
 	border-bottom-right-radius: 1em 1em;
 	
+}
+h1 {
+	padding: 0em;
 }
