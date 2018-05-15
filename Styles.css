@@ -40,6 +40,8 @@ h1 {
 	color:#FFFFFF;
 	background-color:#000000;
 	background-image:url("B.png");
+	background-repeat:no-repeat;
+	background-position:left top;
 	border-style:solid;
 	border-color:#FFCC00;
 	margin-left:75px;
