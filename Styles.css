@@ -23,7 +23,7 @@ ul {
 }
 ul li {
     display: inline;
-	float: left;
+	float: center;
 }
 ul li a {
 	display: block;
