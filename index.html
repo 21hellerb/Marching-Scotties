@@ -6,31 +6,28 @@
     <link rel="shortcut icon" href="B.png">
     <meta charset="UTF-8">
 	  <style>
-.container {
-	width: 50%;
-	display: block;
+ .container {
+  position: relative;
+  width: 50%;
 }
 
-.main {
-  opacity: 1;
+.image {
   display: block;
   width: 100%;
-  transition: .5s ease;
-  backface-visibility: hidden;
+  height: auto;
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.container:hover .main {
-  opacity: 0.3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
 
 .container:hover .middle {
@@ -38,14 +35,14 @@
 }
 
 .text {
-  background-color: #000000;
-  color: #FFCC00;
-  font-size: 16px;
-  padding: 16px 32px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}  
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 	  </style>
   </head>
 <body>
