@@ -1,3 +1,6 @@
+body {
+	background-color:#DCDCDC;
+}
 a.link:link, a.link:visited {
    	background-color:#000000;
    	color:#FFFFFF;
@@ -74,7 +77,4 @@ img.main {
    	margin-right: auto;
 	max-width:150%;
 	height:auto;
-}
-body {
-	background-color:#DCDCDC;
 }
