@@ -64,9 +64,11 @@ div.bottom {
 }
 h3 {
 	color:#FFFFFF;
+	font-family: Georgia, serif;
 }
 p {
 	color:#FFCC00;
+	font-family: Georgia, serif
 }
 .first-line {
 	font-size:60px;
