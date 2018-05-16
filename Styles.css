@@ -72,5 +72,6 @@ img.main {
 	display: block;
 	margin-left: auto;
    	margin-right: auto;
-	width:75%;
+	width:400px;
+	height:200px;
 }
