@@ -23,7 +23,6 @@ ul.nav {
 }
 ul.nav li {
     display: inline;
-	float: left;
 }
 ul.nav li a {
 	display: block;
