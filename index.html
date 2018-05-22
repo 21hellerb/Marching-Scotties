@@ -4,8 +4,51 @@
     <title>Marching Scotties' Home Page</title>
     <link rel=StyleSheet href="Styles.css">
     <link rel="shortcut icon" href="B.png">
-    <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<style>
+ .container {
+  position: relative;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+.middle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: #FFCC00;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.bar {
+  display: table; /*Allow the centering to work*/
+  margin: 0 auto;
+}  
 </style>
     </head>
 <body>
@@ -31,10 +74,12 @@
 </div>
 </nav>
 <br />
-	<br />
-	<br />
-	<br />
-	<br />
+	<div class="container">
+	<img src="Band 17.jpg" alt="The band from the 2017/18 season." class="main">
+		<div class="middle">
+			<div class="text">The 2017 Marching Scotties</div>
+		</div>
+	</div>
   <h2 class="top"> News </h2>
   <div class="bottom">
     <a href="leadership.html">
