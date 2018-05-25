@@ -28,7 +28,7 @@
 			  color:#FFCC00;
 		}
 		  /* Tooltip text */
-		.tooltip .before {
+		.tooltip .a {
     			visibility: hidden;
     			width: 120px;
    			background-color: #FFFFFF;
@@ -50,7 +50,7 @@
 		}
 
 		/* Tooltip arrow */
-		.tooltip .before::after {
+		.tooltip .a::after {
     			content: "";
     			position: absolute;
     			top: 100%;
@@ -62,7 +62,7 @@
 			}
 
 		/* Show the tooltip text when you mouse over the tooltip container */
-		.tooltip:hover .before {
+		.tooltip:hover .a {
     			visibility: visible;
     			opacity: 1;
 			}
@@ -97,8 +97,8 @@
 	<div class="tooltip">
 		<h2 class="before"> Band Camp </h2>
 	</div>
-	<h3> August 13-16 (Monday-Thursday) 8:30am-4pm* </h3>
-	<h3> August 20-23 (Monday-Thursday) 8:30am-4pm* </h3>
+	<h3 class="a"> August 13-16 (Monday-Thursday) 8:30am-4pm* </h3>
+	<h3 class="a"> August 20-23 (Monday-Thursday) 8:30am-4pm* </h3>
 	<h3> August 27 and 29 (Monday/Wednseday) 9am-12pm </h3>
 	<br />
 	<div class="tooltip">
