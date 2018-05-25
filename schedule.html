@@ -27,6 +27,45 @@
 		  p {
 			  color:#FFCC00;
 		}
+		  /* Tooltip text */
+		.tooltip .tooltiptext {
+    			visibility: hidden;
+    			width: 120px;
+   			background-color: #FFFFFF;
+    			color: #000000;
+    			text-align: center;
+   			padding: 5px 0;
+    			border-radius: 6px;
+
+   		 /* Position the tooltip text */
+   			 position: absolute;
+    			z-index: 1;
+    			bottom: 125%;
+  			left: 50%;
+  			margin-left: -60px;
+
+    		/* Fade in tooltip */
+   			opacity: 0;
+   			transition: opacity 0.3s;
+		}
+
+		/* Tooltip arrow */
+		.tooltip .tooltiptext::after {
+    			content: "";
+    			position: absolute;
+    			top: 100%;
+    			left: 50%;
+   			margin-left: -5px;
+    			border-width: 5px;
+   			border-style: solid;
+    			border-color: #fff transparent transparent transparent;
+			}
+
+		/* Show the tooltip text when you mouse over the tooltip container */
+		.tooltip:hover .tooltiptext {
+    			visibility: visible;
+    			opacity: 1;
+			}
 	  </style>
  </head>
 <body>
@@ -55,12 +94,16 @@
 	<br />
 	<br />
 	<div class="bottom">
-	<h2 class="before"> Band Camp </h2>
+	<div class="tooltip">
+		<h2 class="before"> Band Camp </h2>
+	</div>
 	<h3> August 13-16 (Monday-Thursday) 8:30am-4pm* </h3>
 	<h3> August 20-23 (Monday-Thursday) 8:30am-4pm* </h3>
 	<h3> August 27 and 29 (Monday/Wednseday) 9am-12pm </h3>
 	<br />
-	<h2 class="before"> Weekly Rehearsals </h2>
+	<div class="tooltip">
+		<h2 class="before"> Weekly Rehearsals </h2>
+	</div>
 	<p> Rehearsals will take place every Monday and Wednesday beginning September 5th from 3:15-6:15pm. The week of September 17th we will practice Mondat and Thursday, and the week of October 8th we will practice Tuesday and Wednesday. </p>
 	</div>
 	<br />
