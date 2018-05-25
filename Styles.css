@@ -55,6 +55,11 @@ h2.top {
 	text-align:center;
 	font-size:48px;
 }
+h2.top {
+	color:#000000;
+	text-align:center;
+	font-size:36px;
+}
 div.bottom {
 	background-color:#000000;
 	margin-left:75px;
