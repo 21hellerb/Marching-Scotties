@@ -22,7 +22,8 @@ ul.nav {
     color:#FFFFFF;
 }
 ul.nav li {
-    display: inline;
+        display: inline;
+	float: left;
 }
 ul.nav li a {
 	display: block;
